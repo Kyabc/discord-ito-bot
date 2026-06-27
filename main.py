@@ -1,6 +1,6 @@
-def main():
-    print("Hello from discord-ito-bot!")
-
+from bot import run_bot
+from src.logger import set_logger
 
 if __name__ == "__main__":
-    main()
+    set_logger()
+    run_bot()
