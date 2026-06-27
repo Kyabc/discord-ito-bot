@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  bot:
+    build: .
+    restart: unless-stopped
+    environment:
+      - DISCORD_TOKEN=input_discord_bot_token_here
+      - OWNER_ID=input_your_discord_user_id_here
+    tty: true
