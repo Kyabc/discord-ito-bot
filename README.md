@@ -5,7 +5,7 @@ Discord上で遊べる会話ゲーム「ito」のBotです。
 ---
 
 ## Usage:
-### setup
+### Setup
 ```bash
 uv sync
 ```
@@ -78,4 +78,6 @@ uv run python main.py
 - `/ito start 白米に合うもの`
 - `/ito start 神様も引きそうなお願い`
 
----
+### 補足
+- 一部のお題はAIを使って生成しています。
+- 内容にばらつきがある場合がありますが、あらかじめご了承ください。
