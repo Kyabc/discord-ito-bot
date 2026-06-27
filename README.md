@@ -15,6 +15,19 @@ uv sync
 uv run python main.py
 ```
 
+### Run the bot with Docker
+Fill the environment variables in docker-compose.yml
+
+#### Build
+```bash
+docker build
+```
+
+#### Run
+```bash
+docker compose up
+```
+
 ---
 
 ## 遊び方（itoとは）
@@ -80,4 +93,4 @@ uv run python main.py
 
 ### 補足
 - 一部のお題はAIを使って生成しています。
-- 内容にばらつきがある場合がありますが、あらかじめご了承ください。
+  - 内容にばらつきがある場合がありますが、あらかじめご了承ください。
